@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="img/book-half3.svg" type="image/icon type">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./style/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ruge+Boogie&display=swap"
+        rel="stylesheet">
+
+    <title>Leximus</title>
+</head>
+
+<body class="flex-wrapper">
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+                <h1 id="lex-logo">Leximus</h1>
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><img src="img/home.svg" class="link-img"
+                                alt="...">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="add-item.html"><img src="img/add-item.svg" class="link-img"
+                                alt="...">Add Item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="watchlist.html"><img src="img/watchlist.svg" class="link-img"
+                                alt="...">Watchlist</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="search-bar mr-sm-2" type="search" placeholder="Search">
+                    <select class="custom-select-box">
+        
+                        <option value="1">Title</option>
+                        <option value="2">Author</option>
+                        <option value="3">Genre</option>
+                        <option value="4">ISBN</option>
+                        <option value="5">Publisher</option>
+                    </select>
+
+                    <button class="btn btn-sm btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="jumbospacer2"></div>
+    </header>
+    <!-- jumbotron -->
+    <main>
+        <div class="jumbotron2">
+            <!-- background image -->
+        </div>
+        <!--item listings-->
+        <div class="container-fluid flex-row col-12">
+            <div class="row">
+                <div class="col-lg-12"><br>
+
+                    <div class="card mb-4" style="max-width: 100%;">
+
+                        <div class="row">
+                            <div class="col-md-3 card-image-holder3">
+                                <img src="img/faust.jpg" class="card-img" alt="...">
+
+                                <center>
+                                    <p id="top-five-font">Date Added: 12/03/2020</p>
+                                    
+                                    <button class="btn2 btn-lg btn-outline-light" type="submit" data-toggle="modal"
+                                        data-target="#exampleModal">Place Bid</button>
+                                    <a href="watchlist.html"><button class="btn2 btn-lg btn-outline-light"
+                                            type="submit">Add To Watchlist</button></a>
+                                </center>
+                                <p class="book-category"></p>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="card-body">
+                                    <div class="card-row">
+                                        <h5 class="book-title">Faust</h5>
+                                        <h5 class="book-author">Johann Wolfgang von Goethe</h5>
+                                    </div>
+                                    <div class="card-row">
+                                        <h6 id="top-five-font">ISBN: 978-1-57448-237-9</h6>
+                                    </div>
+                                    <div class="card-row">
+                                        <p class="book-category">Classic</p>
+                                    </div>
+
+                                    <div class="card-row">
+                                        <p class="book-description2">Faust is the protagonist of a classic German
+                                            legend, based on the historical Johann Georg Faust.
+                                            The erudite Faust is highly successful yet dissatisfied with his life, which
+                                            leads him to make a pact with the Devil at a crossroads,
+                                            exchanging his soul for unlimited knowledge and worldly pleasures. The Faust
+                                            legend has been the basis for many
+                                            literary, artistic, cinematic, and musical works that have reinterpreted it
+                                            through the ages.
+                                        </p>
+                                    </div>
+                                    <div class="card-row">
+                                        <p class="starting-bid">Starting Bid: $10.00</p>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <h5 class="current-bid">Current Bid:</h5>
+                                        <h5 class="current-bid-price">$103.70</h5>
+                                        <h6 id="top-five-font">&nbsp;[21 Bids]</h6>
+                                    </div>
+                                    <p class="book-category"></p>
+                                    <div class="card-row">
+                                        
+                                            <textarea class="write-comment">Write Comment...</textarea>
+                                        
+                                    </div>
+                                    <div class="card-row">
+
+                                        <button class="btn2 btn-lg btn-outline-light" type="submit">Post
+                                            Comment</button>
+                                    </div>
+                                    <p class="book-category"></p>
+                                    <div class="card mb-4" style="max-width: 100%;">
+
+                                        <div class="row">
+                                            <div class="col-md-2  comment-display-pic-holder">
+                                                <img class="comment-display-pic" src="img/person-fill.svg">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-body">
+                                                    <div class="card-row">
+                                                        <p class="book-title">Richard Tinsley</p>
+
+                                                    </div>
+                                                    <div class="card-row">
+                                                        <p class="book-category">One of the greatest books ever written,
+                                                            a timeless classic, I'd love to own the
+                                                            the hard copy.
+                                                        </p>
+                                                    </div>
+                                                    <div class="card-row2">
+                                                        <h6 id="comment-date">12-09-2020</h6>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="book-category"></p>
+                                    <div class="card mb-4" style="max-width: 100%;">
+
+                                        <div class="row">
+                                            <div class="col-md-2 comment-display-pic-holder">
+                                                <img class="comment-display-pic" src="img/person-fill.svg">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-body">
+                                                    <div class="card-row">
+                                                        <p class="book-title">Joseph Blark</p>
+
+                                                    </div>
+                                                    <div class="card-row">
+                                                        <p class="book-category">Lorem ipsum dolor sit amet consectetur
+                                                            adipisicing elit. Assumenda totam deleniti nisi blanditiis,
+                                                            ut officia dolor non asperiores? Sequi perspiciatis fugit
+                                                            reprehenderit sint molestias, eveniet natus dolore facilis
+                                                            eum necessitatibus dolorum obcaecati unde sed voluptas eos.
+                                                            Veritatis natus eveniet nisi placeat eius aliquid cupiditate
+                                                            et distinctio totam alias minima omnis repellendus a
+                                                            perferendis eos quos eaque est adipisci, necessitatibus
+                                                            voluptas.
+                                                        </p>
+                                                    </div>
+                                                    <div class="card-row2">
+                                                        <h6 id="comment-date">11-08-2020</h6>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <p class="book-category"></p>
+                                    <div class="card mb-4" style="max-width: 100%;">
+
+                                        <div class="row">
+                                            <div class="col-md-2 comment-display-pic-holder">
+                                                <img class="comment-display-pic" src="img/person-fill.svg">
+                                            </div>
+                                            <div class="col-md-10">
+                                                <div class="card-body">
+                                                    <div class="card-row">
+                                                        <p class="book-title">Chelsea Mae Ray</p>
+
+                                                    </div>
+                                                    <div class="card-row">
+                                                        <p class="book-category">Lorem ipsum dolor sit amet consectetur
+                                                            adipisicing elit. Quisquam voluptate repellat ipsum
+                                                            molestiae dolorem commodi optio ex quae labore cum.
+                                                        </p>
+                                                    </div>
+                                                    <div class="card-row2">
+                                                        <h6 id="comment-date">01-08-2020</h6>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Place your bid.</h5>
+
+                        </div>
+                        <div class="modal-body">
+                            <label class="bid-amount" for="bidamount">Please enter your bid amount</label>
+                            <input type="text" id="bid-amount-text" name="fname">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary">Place Bid</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-text-box">
+            <p class="footer-text">
+                &copy; 2020 Leximus.com
+            </p>
+        </div>
+        <div class="lex-footer">
+            <!-- background image -->
+        </div>
+    </footer>
+
+    <!-- script links -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

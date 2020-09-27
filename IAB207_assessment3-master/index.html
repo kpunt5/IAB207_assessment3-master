@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="icon" href="img/book-half3.svg" type="image/icon type">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="./style/style.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ruge+Boogie&display=swap"
+    rel="stylesheet">
+
+  <title>Leximus</title>
+</head>
+<body class="flex-wrapper">
+  <!-- navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">
+        <h1 id="lex-logo">Leximus</h1>
+      </a>
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><img src="img/home.svg" class="link-img" alt="...">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="add-item.html"><img src="img/add-item.svg" class="link-img" alt="...">Add Item</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="watchlist.html"><img src="img/watchlist.svg" class="link-img"
+                alt="...">Watchlist</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="search-bar mr-sm-2" type="search" placeholder="Search">
+          <select class="custom-select-box">
+            
+            <option value="1">Title</option>
+            <option value="2">Author</option>
+            <option value="3">Genre</option>
+            <option value="4">ISBN</option>
+            <option value="5">Publisher</option>
+          </select>
+
+          <button class="btn btn-sm btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="jumbospacer"></div>
+  </header>
+  <!-- jumbotron -->
+  <main>
+    <div class="jumbotron">
+      <!-- background image -->
+    </div>
+    <div class="jumbotron-text-shadow">
+      <h1 class="jumbotron-title">Leximus</h1>
+    </div>
+    <!--item listings-->
+    <div class="container-fluid flex-row col-12">
+      <div class="row">
+        <div class="col-lg-8"><br>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-3 card-image-holder">
+                <img src="img/faust.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-row">
+                    <h5 class="book-title">Faust</h5>
+                    <h5 class="book-author">Johann Wolfgang von Goethe</h5>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-category">Classic</p>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-description">Faust is the protagonist of a classic German legend, based on the
+                      historical Johann Georg Faust.
+                      The erudite Faust is highly successful yet dissatisfied with his life, which leads him to make a
+                      pact with the Devil at a crossroads,
+                      exchanging his soul for unlimited knowledge and worldly pleasures. The Faust legend has been the
+                      basis for many
+                      literary, artistic, cinematic, and musical works that have reinterpreted it through the ages.
+                    </p>
+                  </div>
+                  <div class="card-row">
+                    <h5 class="current-bid">Current Bid:</h5>
+                    <h5 class="current-bid-price">$103.70</h5>
+                    <h6 id="top-five-font">&nbsp;[21 Bids]</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-3 card-image-holder">
+                <img src="img/hp.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-row">
+                    <h5 class="book-title">Harry Potter and the Philosopher's Stone</h5>
+                    <h5 class="book-author">J.K. Rowling</h5>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-category">Fantasy</p>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-description">First edition of Harry Potter and the Philosopher's Stone
+                      excellent condition, very rare and collectable.
+                    </p>
+                  </div>
+                  <div class="card-row">
+                    <h5 class="current-bid">Current Bid:</h5>
+                    <h5 class="current-bid-price">$30.10</h5>
+                    <h6 id="top-five-font">&nbsp;[12 Bids]</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-3 card-image-holder">
+                <img src="img/dante.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-row">
+                    <h5 class="book-title">Dante's Inferno</h5>
+                    <h5 class="book-author">Dante Alighieri</h5>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-category">Religion</p>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-description">Inferno is a fourteenth-century epic poem by
+                      Dante Alighieri in which the poet and pilgrim Dante embarks on a spiritual journey.
+                    </p>
+                  </div>
+                  <div class="card-row">
+                    <h5 class="current-bid">Current Bid:</h5>
+                    <h5 class="current-bid-price">$29.10</h5>
+                    <h6 id="top-five-font">&nbsp;[9 Bids]</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-3 card-image-holder">
+                <img src="img/pride.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-row">
+                    <h5 class="book-title">Pride and Prejudice</h5>
+                    <h5 class="book-author">Jane Austen</h5>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-category">Romance</p>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-description">Pride and Prejudice is a romantic novel of manners written by Jane
+                      Austen in 1813.
+                      The novel follows the character development of Elizabeth Bennet,
+                      the dynamic protagonist of the book who learns about the repercussions of hasty judgments and
+                      comes
+                      to appreciate the difference between superficial goodness and actual goodness.
+                    </p>
+                  </div>
+                  <div class="card-row">
+                    <h5 class="current-bid">Current Bid:</h5>
+                    <h5 class="current-bid-price">$4.10</h5>
+                    <h6 id="top-five-font">&nbsp;[2 Bids]</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-3 card-image-holder">
+                <img src="img/hitchhikers.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-row">
+                    <h5 class="book-title">The Hitchhiker's Guide to the Galaxy</h5>
+                    <h5 class="book-author">Douglas Adams</h5>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-category">Comedy / Science Fiction</p>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-description">The Hitchhiker's Guide to the Galaxy has become an international
+                      multi-media phenomenon;
+                      the novels are the most widely distributed, having been translated into more than 30 languages by
+                      2005.
+                      The first novel, The Hitchhiker's Guide to the Galaxy (1979), was ranked fourth on the BBC’s The
+                      Big Read poll.
+                      The sixth novel, And Another Thing, was written by Eoin Colfer with additional unpublished
+                      material by Douglas Adams.
+                      In 2017, BBC Radio 4 announced a 40th-anniversary celebration with Dirk Maggs,
+                      one of the original producers, in charge.[8] The first of six new episodes was broadcast on 8
+                      March 2018.
+                    </p>
+                  </div>
+                  <div class="card-row">
+                    <h5 class="current-bid">Current Bid:</h5>
+                    <h5 class="current-bid-price">$57.70</h5>
+                    <h6 id="top-five-font">&nbsp;[5 Bids]</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-3 card-image-holder">
+                <img src="img/marcus.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-row">
+                    <h5 class="book-title">Meditations</h5>
+                    <h5 class="book-author">Marcus Aurelius</h5>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-category">Philosophy</p>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-description">
+                      It is unlikely that Marcus Aurelius ever intended the writings to be published and the
+                      work has no official title, so "Meditations" is one of several titles commonly assigned
+                      to the collection. These writings take the form of quotations varying in length from one
+                      sentence to long paragraphs.
+                    </p>
+                  </div>
+                  <div class="card-row">
+                    <h5 class="current-bid">Current Bid:</h5>
+                    <h5 class="current-bid-price">$77.35</h5>
+                    <h6 id="top-five-font">&nbsp;[13 Bids]</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-3 card-image-holder">
+                <img src="img/great.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-row">
+                    <h5 class="book-title">The Great Gatsby</h5>
+                    <h5 class="book-author">F. Scott Fitzgerald</h5>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-category">Tragedy</p>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-description">
+                      The Great Gatsby is a 1925 novel written by American author F. Scott Fitzgerald that follows
+                      a cast of characters living in the fictional towns of West Egg and East Egg on prosperous
+                      Long Island in the summer of 1922. Many literary critics consider The Great Gatsby to be
+                      one of the greatest novels ever written.
+                    </p>
+                  </div>
+                  <div class="card-row">
+                    <h5 class="current-bid">Current Bid:</h5>
+                    <h5 class="current-bid-price">$23.50</h5>
+                    <h6 id="top-five-font">&nbsp;[4 Bids]</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-3 card-image-holder">
+                <img src="img/dracula.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-row">
+                    <h5 class="book-title">Dracula</h5>
+                    <h5 class="book-author">Bram Stoker</h5>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-category">Horror</p>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-description">
+                      Dracula is an 1897 Gothic horror novel by Irish author Bram Stoker.
+                      It introduced the character of Count Dracula and established many conventions of
+                      subsequent vampire fantasy.
+                    </p>
+                  </div>
+                  <div class="card-row">
+                    <h5 class="current-bid">Current Bid:</h5>
+                    <h5 class="current-bid-price">$345.50</h5>
+                    <h6 id="top-five-font">&nbsp;[166 Bids]</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-3 card-image-holder">
+                <img src="img/paradise.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-row">
+                    <h5 class="book-title">Paradise Lost</h5>
+                    <h5 class="book-author">John Milton</h5>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-category">Epic Poetry / Mythology</p>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-description">
+                      Having gone totally blind in 1652, Milton wrote Paradise Lost entirely through dictation with the
+                      help of amanuenses
+                      and friends. He also wrote the epic poem while he was often ill, suffering from gout, and despite
+                      suffering
+                      emotionally after the early death of his second wife, Katherine Woodcock, in 1658, and the death
+                      of their
+                      infant daughter.
+                    </p>
+                  </div>
+                  <div class="card-row">
+                    <h5 class="current-bid">Current Bid:</h5>
+                    <h5 class="current-bid-price">$201.95</h5>
+                    <h6 id="top-five-font">&nbsp;[99 Bids]</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-3 card-image-holder">
+                <img src="img/game.jpg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-row">
+                    <h5 class="book-title">Game of Thrones</h5>
+                    <h5 class="book-author">George R. R. Martin</h5>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-category">Fantasy</p>
+                  </div>
+                  <div class="card-row">
+                    <p class="book-description">
+                      Game of Thrones is an American fantasy drama television series created by David Benioff and
+                      D. B. Weiss for HBO. It is an adaptation of A Song of Ice and Fire,
+                      George R. R. Martin's series of fantasy novels, the first of which is A Game of Thrones.
+                    </p>
+                  </div>
+                  <div class="card-row">
+                    <h5 class="current-bid">Current Bid:</h5>
+                    <h5 class="current-bid-price">$20.80</h5>
+                    <h6 id="top-five-font">&nbsp;[7 Bids]</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- top five -->
+        <div class="col-xs-4 col-sm-6 col-md-6 col-lg-4">
+          <br>
+          <p class="top-five-title">Top Five Items</p>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-4 card-image-holder">
+                <img src="img/dracula.jpg" class="card-img" alt="...">
+                <img src="img/star.svg" class="star-img-top-five" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body top-five-body">
+                  <div class="card-row">
+                    <h6 id="top-five-font">Dracula</h6>
+                  </div>
+                  <div class="card-row">
+                    <h6 id="top-five-font">Bram Stoker</h6>
+                  </div>
+                  <div class="card-row">
+                    <h6 id="top-five-font">Current Bid:&nbsp;</h6>
+                    <h6 id="top-five-font">&nbsp;$345.50&nbsp;</h6>
+                    <h6 id="top-five-font-bids">&nbsp;[166 Bids]</h6>
+                    <a href="book-item.html" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-4 card-image-holder">
+                <img src="img/paradise.jpg" class="card-img" alt="...">
+                <img src="img/star.svg" class="star-img-top-five" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body top-five-body">
+                  <div class="card-row">
+                    <h6 id="top-five-font">Paradise Lost</h6>
+                  </div>
+                  <div class="card-row">
+                    <h6 id="top-five-font">John Milton</h6>
+                  </div>
+                  <div class="card-row">
+                    <h6 id="top-five-font">Current Bid:&nbsp;</h6>
+                    <h6 id="top-five-font">&nbsp;$201.95&nbsp;</h6>
+                    <h6 id="top-five-font-bids">&nbsp;[99 Bids]</h6>
+                    <a href="book-item.html" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-4 card-image-holder">
+                <img src="img/faust.jpg" class="card-img" alt="...">
+                <img src="img/star.svg" class="star-img-top-five" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body top-five-body">
+                  <div class="card-row">
+                    <h6 id="top-five-font">Faust</h6>
+                  </div>
+                  <div class="card-row">
+                    <h6 id="top-five-font">Johann Wolfgang von Goethe</h6>
+                  </div>
+                  <div class="card-row">
+                    <h6 id="top-five-font">Current Bid:&nbsp;</h6>
+                    <h6 id="top-five-font">&nbsp;$103.70&nbsp;</h6>
+                    <h6 id="top-five-font-bids">&nbsp;[21 Bids]</h6>
+                    <a href="book-item.html" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-4 card-image-holder">
+                <img src="img/marcus.jpg" class="card-img" alt="...">
+                <img src="img/star.svg" class="star-img-top-five" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body top-five-body">
+                  <div class="card-row">
+                    <h6 id="top-five-font">Meditations</h6>
+                  </div>
+                  <div class="card-row">
+                    <h6 id="top-five-font">Marcus Aurelius</h6>
+                  </div>
+                  <div class="card-row">
+                    <h6 id="top-five-font">Current Bid:&nbsp;</h6>
+                    <h6 id="top-five-font">&nbsp;$77.35&nbsp;</h6>
+                    <h6 id="top-five-font-bids">&nbsp;[13 Bids]</h6>
+                    <a href="book-item.html" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: 100%;">
+            <a href="book-item.html" class="stretched-link"></a>
+            <div class="row">
+              <div class="col-md-4 card-image-holder">
+                <img src="img/dante.jpg" class="card-img" alt="...">
+                <img src="img/star.svg" class="star-img-top-five" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body top-five-body">
+                  <div class="card-row">
+                    <h6 id="top-five-font">Dante's Inferno</h6>
+                  </div>
+                  <div class="card-row">
+                    <h6 id="top-five-font">Dante Alighieri</h6>
+                  </div>
+                  <div class="card-row">
+                    <h6 id="top-five-font">Current Bid:&nbsp;</h6>
+                    <h6 id="top-five-font">&nbsp;$29.10&nbsp;</h6>
+                    <h6 id="top-five-font-bids">&nbsp;[9 Bids]</h6>
+                    <a href="book-item.html" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+  </main>
+  <!-- footer -->
+  <footer>
+    <div class="footer-text-box">
+      <p class="footer-text">
+        &copy; 2020 Leximus.com
+      </p>
+    </div>
+    <div class="lex-footer">
+      <!-- background image -->
+    </div>
+  </footer>
+
+  <!-- script links -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

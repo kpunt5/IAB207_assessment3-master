@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="img/book-half3.svg" type="image/icon type">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./style/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ruge+Boogie&display=swap"
+        rel="stylesheet">
+
+    <title>Leximus</title>
+</head>
+
+<body class="flex-wrapper">
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+                <h1 id="lex-logo">Leximus</h1>
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><img src="img/home.svg" class="link-img"
+                                alt="...">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="add-item.html"><img src="img/add-item.svg" class="link-img"
+                                alt="...">Add Item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="watchlist.html"><img src="img/watchlist.svg" class="link-img"
+                                alt="...">Watchlist</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="search-bar mr-sm-2" type="search" placeholder="Search">
+                    <select class="custom-select-box">
+              
+                        <option value="1">Title</option>
+                        <option value="2">Author</option>
+                        <option value="3">Genre</option>
+                        <option value="4">ISBN</option>
+                        <option value="5">Publisher</option>
+                    </select>
+
+                    <button class="btn btn-sm btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="jumbospacer2"></div>
+    </header>
+    <!-- jumbotron -->
+    <main>
+        <div class="jumbotron2">
+            <!-- background image -->
+        </div>
+        <!--item listings-->
+        <div class="container-fluid flex-row col-12">
+            <div class="row">
+                <div class="col-lg-12"><br>
+
+                    <div class="card mb-4" style="max-width: 100%;">
+
+                        <div class="row">
+                            <div class="col-md-5 col-lg-3 card-image-holder3">
+                                <center>
+                                    <p class="book-category"></p>
+                                    <h5 class="book-title">Create Item Listing</h5>
+                                    <p class="book-category"></p>
+                                    <img class="upload-image" src="img/upload.svg">
+                                    <p class="book-category"></p>
+                                    <button class="btn2 btn-lg btn-outline-light" type="submit">Select Photo</button>
+                                    &nbsp;
+                                    <button class="btn2 btn-lg btn-outline-light" type="submit">Upload Photo</button>
+                                </center>
+                            </div>
+
+                            <div class="col-md-7 col-lg-9">
+                                <div class="card-body">
+
+                                    <div class="card-row">
+                                        <div class="form-col-label">
+                                            <label class="add-item-label" for="title">Title:</label>
+                                        </div>
+                                        <div class="form-col-text">
+                                            <input class="add-item-text" type="text" placeholder="Book Title">
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="form-col-label">
+                                            <label class="add-item-label" for="title">Author:</label>
+                                        </div>
+                                        <div class="form-col-text">
+                                            <input class="add-item-text" type="text" placeholder="Author">
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="form-col-label">
+                                            <label class="add-item-label" for="title">ISBN:</label>
+                                        </div>
+                                        <div class="form-col-text">
+                                            <input class="add-item-text" type="text" placeholder="ISBN">
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="form-col-label">
+                                            <label class="add-item-label" for="title">Genre:</label>
+                                        </div>
+                                        <div class="form-col-text">
+                                            <select class="custom-select-box-add">
+                                                
+                                                <option value="1">Fiction</option>
+                                                <option value="2">Non-Fiction</option>
+                                                <option value="3">Comedy</option>
+                                                <option value="4">Action</option>
+                                                <option value="5">Horror</option>
+                                                <option value="5">Drama</option>
+                                                <option value="5">Science Fiction</option>
+                                                <option value="5">Adventure</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="form-col-label">
+                                            <label class="add-item-label" for="title">Starting Bid:</label>
+                                        </div>
+                                        <div class="form-col-text">
+                                            <input class="add-item-text starting-bid" type="text" placeholder="$">
+                                        </div>
+                                    </div>
+                                    <div class="card-row">
+                                        <div class="form-col-label">
+                                            <label class="add-item-label" for="title">Book Description:</label>
+                                        </div>
+                                        <div class="form-col-text">
+                                            <form>
+                                                <textarea class="write-comment-add">Book Description</textarea>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <p class="book-category"></p>
+                                    <div class="card-row">
+                                        <div class="form-col-label">
+
+                                        </div>
+                                        <div class="form-col-text">
+                                            <button class="btn2 btn-lg btn-outline-light" type="submit">Create
+                                                Auction</button>
+                                        </div>
+                                    </div>
+
+                                    <p class="book-category"></p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="footer-text-box">
+            <p class="footer-text">
+                &copy; 2020 Leximus.com
+            </p>
+        </div>
+        <div class="lex-footer">
+            <!-- background image -->
+        </div>
+    </footer>
+
+    <!-- script links -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

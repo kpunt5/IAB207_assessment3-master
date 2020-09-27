@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="star.svg"
+   inkscape:export-filename="C:\Documents and Settings\Todd V\My Documents\FAS logos\FASlogoSmall.png"
+   viewBox="0 0 1052.4 744.09"
+   inkscape:export-xdpi="27.3305"
+   version="1.1"
+   inkscape:export-ydpi="27.3305"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <defs
+     id="defs11" />
+  <title
+     id="title2885">3D Star</title>
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="-8"
+     pagecolor="#ffffff"
+     inkscape:window-height="705"
+     inkscape:window-maximized="1"
+     inkscape:zoom="0.6588522"
+     inkscape:window-x="-8"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="526.18109"
+     inkscape:cy="372.04724"
+     inkscape:window-width="1366"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     inkscape:document-rotation="0" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0 -308.27)">
+    <path
+       id="path3656-2"
+       style="fill:#ffff00"
+       sodipodi:type="star"
+       sodipodi:r1="927.19232"
+       inkscape:flatsided="false"
+       transform="matrix(0.34258278,0.07341098,-0.07341098,0.34258278,473.1975,599.25563)"
+       sodipodi:arg2="0.31462086"
+       sodipodi:arg1="-0.31369767"
+       inkscape:randomized="0"
+       sodipodi:cy="309.30664"
+       sodipodi:cx="158.33333"
+       inkscape:rounded="0"
+       sodipodi:r2="352.33307"
+       sodipodi:sides="5"
+       d="M 1040.2778,23.195527 493.3717,418.33821 702.97699,1059.6725 158.17069,661.63967 -387.00284,1059.1693 -176.80555,418.02886 -723.34662,22.381446 -48.631257,24.167636 158.76132,-617.88558 365.56106,24.358825 Z" />
+    <path
+       id="path3997"
+       sodipodi:nodetypes="ccccccccccccccccccsc"
+       style="fill:#f1d009"
+       d="m 572.96988,399.20015 -118.20591,204.7677 49.6091,113.54505 68.59888,-318.32253 z M 504.36626,717.49099 827.89597,683.56718 596.62873,634.42685 504.36865,717.48939 Z M 223.72387,553.80447 381.94539,729.4864 504.38212,717.46473 223.72366,553.80545 Z m 280.46429,163.65858 c 0,0 -241.3072,216.24913 -241.3072,216.24913 l 215.95545,-96.17572 25.34197,-120.0755 z m -0.0376,-0.18542 c 0,0 132.0945,296.65287 132.0945,296.65287 L 611.51322,778.79898 504.14932,717.2835 Z" />
+  </g>
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>3D Spiral Star</dc:title>
+        <dc:date>2010-03-23T22:23:16</dc:date>
+        <dc:description>A 3D star</dc:description>
+        <dc:source>https://openclipart.org/detail/33619/3d-spiral-star-by-badtheba</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>badtheba</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>3D</rdf:li>
+            <rdf:li>spiral</rdf:li>
+            <rdf:li>star</rdf:li>
+            <rdf:li>yellow</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

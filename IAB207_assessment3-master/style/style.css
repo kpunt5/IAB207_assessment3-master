@@ -1,0 +1,380 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+/* Font-size on screen adjustment */
+@media screen and (min-width:400px){
+    .card p{
+        font-size: 12px;
+    }
+    .card h5{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:800px){
+    .card p{
+        font-size: 14px;
+    }
+    .card h5{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:1200px){
+    .card p{
+        font-size: 16px;
+    }
+    .card h5{
+        font-size: 20px;
+    }
+}
+@font-face {
+    font-family: lexlogofont;
+    src: url(../fonts/RugeBoogie-Regular.ttf);
+  }
+body {
+    background-color: #fffef6;  
+}
+/* Expands body content pushing footer down */
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between
+}
+/* Hyperlink formatting */
+a {
+    font-size: 16px;
+    text-decoration:none;
+    color: #fffef6; 
+}
+a:hover {
+    font-size: 16px;
+    text-decoration:none;
+    color: #fffef6; 
+}
+/* Navbar Logo formatting */
+#lex-logo {
+    color: #fffef6;  
+    font-size: 32px;
+    font-family: 'lexlogofont';
+    text-shadow: 2px 2px 3px #000000;
+    letter-spacing: 2px; 
+    padding: 0px;
+    margin: 0px 40px 0px 0px;
+}
+.navbar-brand{
+    padding: 0px;
+    margin: 0px;
+}
+/* Navbar formatting */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #000000;
+    background-color: #000000dd; 
+    z-index: 2; 
+}
+.navbar-nav {
+    text-shadow: 2px 2px 4px #000000;    
+}
+.navbar-toggler { 
+    border-radius: 0px;
+}
+.navbar-toggler-icon{
+    width: 1rem;
+    height: 1rem;
+}
+.search-bar {
+    border: 1px solid #fffef6;
+    box-shadow: 2px 2px 10px 0px #000000;  
+    color: #fffef6;
+    font-size: 12px;
+    background-color: #00000000;
+    background-image: url('../img/search.svg');   
+    background-position: 5px 3px;
+    background-repeat: no-repeat; 
+    height: 1.5rem;
+    padding: 3px 0px 3px 25px;
+    width: 200px;
+}
+.custom-select-box {
+    border-radius: 0px;
+    border: 1px solid #fffef6;
+    box-shadow: 2px 2px 10px 0px #000000;  
+    color: #fffef6;
+    font-size: 12px;
+    background-color: #00000000; 
+    height: 1.5rem;    
+}
+/* Navbar Button Formatting */
+.link-img {
+    width: 25px;    
+    padding-right: 7px;
+    -webkit-filter: drop-shadow( 2px 2px 1px #000000);
+    filter: drop-shadow( 2px 2px 1px #000000);
+}
+.btn {
+    font-size: .7rem;
+    border: 1px solid #fffef6;
+    box-shadow: 2px 2px 10px 0px #000000;
+    border-radius: 0px;   
+    width: 4rem;
+    height: 1.5rem;
+    padding: 0px 0px 0px 0px; 
+}
+.btn2 {
+    font-size: 1rem;
+    border: 1px solid #7a7a7a;
+    box-shadow: 1px 1px 10px 0px #00000033;
+    border-radius: 1px;   
+    height: 1.7rem;
+    padding: 0px 4px 0px 4px; 
+    background-color: #7a7a7a;
+    margin: 2px 2px 0px 0px;
+}
+/* JUMBOTRON FORMATTING */
+.jumbotron {
+    position: absolute;
+    top: 0px;
+    z-index: -2;
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    border-radius: 0px; 
+    height: 9rem;
+    width: 100%;   
+}
+.jumbotron2 {
+    position: absolute;
+    top: 0px;
+    z-index: -2;
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    border-radius: 0px; 
+    height: 55px;
+    width: 100%;   
+}
+.jumbotron-text-shadow {
+    position: absolute;
+    z-index: -1;
+    top: 4rem;
+    left: 50%;
+    text-shadow: 2px 2px 3px #000000;
+    transform:translatex(-50%);  
+    width: 80%;
+    text-align: center;
+}
+.jumbotron-title {
+    color: #fffef6;  
+    font-family: 'lexlogofont';
+    font-size: 4rem; 
+    letter-spacing: 5px;  
+}
+.jumbospacer{
+    height: 10rem;
+} 
+.jumbospacer2{
+    height: 4rem;
+} 
+/* CARD FORMATTING */
+.card {
+    box-shadow: 1px 1px 10px 0px #00000033;
+    border-radius: 1px;
+}
+.card-row {
+    display: flex;
+}
+.card-img {
+    max-height: 90%;    
+    padding: 5px;
+}
+.card-image-holder {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    padding-left: 1.5rem;
+}
+/* CARD TEXT FORMATTING */
+.book-title {
+    color: #000000;
+    font-size: 1.2rem; 
+}
+.book-author {
+    color: #7a7a7a;
+    font-size: .8rem;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+.book-category {
+    color: #7a7a7a;
+    font-size: .8rem;
+    padding-bottom: 10px;
+}
+.book-description {
+    color: #000000;
+    font-size: 1rem;
+    padding-bottom: 30px;
+}
+.current-bid {
+    color: #000000;
+    font-size: .8rem;
+}
+.current-bid-price{
+    color: #000000;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+.starting-bid{
+    padding: 0px;
+}
+#top-five-font {
+    font-size: .8rem;
+    color: #7a7a7a;
+}
+#top-five-font-sold{
+    color: #ff0000;
+}
+#top-five-font-active{
+    color: #00ff00;
+}
+#top-five-font-bids {
+    font-size: .5rem;
+    color: #7a7a7a;
+}
+.star-img-top-five {
+    width: 50%;
+    position:absolute; 
+    left: 55%;
+    top: -10%;
+    -webkit-filter: drop-shadow( 2px 2px 4px #000000);
+    filter: drop-shadow( 2px 2px 4px #000000);
+}
+#comment-date{
+    font-size: .8rem;
+    color: #7a7a7a;
+}
+.card-row2{
+    text-align: right;
+}
+.comment-display-pic {
+    width: 100px;
+    padding-left: 20px;
+}
+.comment-display-pic-holder{
+    display: flex;
+    justify-content: center; 
+    vertical-align: middle;
+}
+/* FORM TEXT FORMATTING */
+.form-col-label{
+    text-align: left;
+    width:30%;
+}
+.form-col-text{
+    text-align: left;
+    width:70%;
+}
+.upload-image {
+    width: 30%;
+}
+.add-item-label{
+    font-size: 14px;
+    padding: 0px 5px 0px 0px;
+}
+.add-item-text{
+    height: 25px;
+    width: 100%;
+    border: 1px solid #d4d4d4;
+    background-color:#ffffff;
+    font-size: 12px;
+    box-shadow: 1px 1px 10px 0px #00000033;
+    border-radius: 1px;
+    padding: 0px 0px 0px 4px;
+}
+#bid-amount-text {
+    border: 1px solid#fffef6;
+    background-color: #161616;
+    color:#fffef6;
+}
+.custom-select-box-add{
+    border-radius: 0px;
+    border: 1px solid #d4d4d4;
+    box-shadow: 1px 1px 10px 0px #00000033;
+    color:  #7a7a7a;
+    font-size: 12px;
+    background-color: #00000000; 
+    height: 1.5rem;   
+}
+.starting-bid{
+    width: 80px;
+}
+.write-comment {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    border: 1px solid #d4d4d4;
+    background-color:#ffffff;
+    font-size: 16px;
+    resize: none;
+    box-shadow: 1px 1px 10px 0px #00000033;
+    border-radius: 1px;
+}
+.write-comment-add {
+    width: 100%;
+    height: 100px;
+    padding: 4px 0px 0px 4px;
+    border: 1px solid #d4d4d4;
+    background-color:#ffffff;
+    color:  #7a7a7a;
+    font-size: 12px;
+    resize: none;
+    box-shadow: 1px 1px 10px 0px #00000033;
+    border-radius: 1px;    
+}
+.watchlist-delete{
+    padding: 10px;
+    width: 50px;
+}
+/* Bidding Modal formatting */
+.modal-content {
+    margin-top:30% !important;
+    border-radius: 0px;
+    background-color: #000000;
+    background-color: #000000dd; 
+    box-shadow: 2px 2px 10px 0px #000000;   
+}
+.modal-title {
+    color:#fffef6;
+}
+.bid-amount {
+    color:#fffef6;
+}
+/* FOOTER formatting */
+.lex-footer{  
+    width: 100%;   
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    background-position: 50% 80%;
+    filter: blur(2px);
+    height: 2rem; 
+}
+.footer-text-box {
+    text-align: right;    
+    position: relative;
+    top: 32px;
+    z-index: 1; 
+}
+.footer-text {
+    text-shadow: 2px 2px 3px #000000;
+    color: #fffef6;
+    font-size: .8rem;
+    letter-spacing: 3px;
+    padding: 0px 20px 7px 0px;
+    margin: 0px;       
+}
+
